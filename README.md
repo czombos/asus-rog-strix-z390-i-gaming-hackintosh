@@ -12,15 +12,15 @@ Build a Perfect Vanilla Hackintosh. I used [this guide](https://www.tonymacx86.c
 
 ## Everything Works
 1. Continuity:
-  - Handoff
-  - iMessage
-  - Continuity Camera
-  - Universal Clipboard
-  - Instant Hotspot
-  - Air Drop
-  - iPhone Cellular Calls
-  - Auto Unlock
-  - Apple Pay
+  * Handoff
+  * iMessage
+  * Continuity Camera
+  * Universal Clipboard
+  * Instant Hotspot
+  * Air Drop
+  * iPhone Cellular Calls
+  * Auto Unlock
+  * Apple Pay
 2. Sleep (fans and RGB LEDs included)
 3. Power Nap (sleep with background operations such as Time Machine)
 4. Wake
