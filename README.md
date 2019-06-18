@@ -10,6 +10,8 @@ Build a Perfect Vanilla Hackintosh. I used [this guide](https://www.tonymacx86.c
 - 1 x Samsung SSD 850 EVO 250GB
 - 1 x Broadcom BCM94350ZAE/DW1820A M.2 WiFi/ac and BT4LE (replaced on the motherboard)
 
+![About My Mac](images/about.png)
+
 ## Everything Works
 
 - Continuity:
