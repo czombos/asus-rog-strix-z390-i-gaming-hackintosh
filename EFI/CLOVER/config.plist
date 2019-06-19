@@ -60,7 +60,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Fix Asus Z390 BIOS RTC bug fix</string>
+					<string>Fix RTC _STA bug</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -73,11 +73,7 @@
 					</data>
 				</dict>
 			</array>
-			<key>ReuseFFFF</key>
-			<false/>
 		</dict>
-		<key>DisableASPM</key>
-		<false/>
 		<key>DropTables</key>
 		<array>
 			<dict>
@@ -105,11 +101,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 debug=0x100 brcmfx-driver=1 brcmfx-country=#a</string>
+		<string>dart=0 debug=0x100 brcmfx-country=#a</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>NoEarlyProgress</key>
-		<false/>
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
@@ -134,11 +128,11 @@
 				<key>AAPL,slot-name</key>
 				<string>WLAN</string>
 				<key>compatible</key>
-				<string>pci14e4,4353</string>
+				<string>pci14e4,43a0</string>
 				<key>device_type</key>
 				<string>Airport Extreme</string>
 				<key>model</key>
-				<string>Dell DW1820 (BCM4350) 802.11ac wireless</string>
+				<string>Dell DW1820A 802.11ac wireless</string>
 				<key>name</key>
 				<string>Airport</string>
 			</dict>
@@ -183,8 +177,6 @@
 		<false/>
 		<key>AppleRTC</key>
 		<true/>
-		<key>Debug</key>
-		<false/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
 		<key>KernelCpu</key>
