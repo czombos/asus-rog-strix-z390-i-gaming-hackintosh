@@ -81,12 +81,6 @@
 				<string>DMAR</string>
 			</dict>
 		</array>
-		<key>FixHeaders</key>
-		<false/>
-		<key>FixMCFG</key>
-		<false/>
-		<key>HaltEnabler</key>
-		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -101,7 +95,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 debug=0x100 brcmfx-country=#a</string>
+		<string>dart=0 debug=0x100</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
@@ -211,7 +205,7 @@
 				<key>Comment</key>
 				<string>USB port limit patch #1 10.14.x modify by DalianSky(credit ydeng)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPDw==
@@ -231,7 +225,7 @@
 				<key>Comment</key>
 				<string>USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g+MP0w==
@@ -251,7 +245,7 @@
 				<key>Comment</key>
 				<string>USB Port limit patch #3 10.14.x modify by DalianSky(credits PMheart)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPDw==
@@ -271,7 +265,7 @@
 				<key>Comment</key>
 				<string>USB Port limit patch #4 10.14.x modify by DalianSky(credits PMheart)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/8PDw==
