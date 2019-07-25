@@ -95,7 +95,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 debug=0x100</string>
+		<string>dart=0 debug=0x100 brcmfx-driver=1 brcmfx-country=HU -v</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
@@ -122,7 +122,7 @@
 				<key>AAPL,slot-name</key>
 				<string>WLAN</string>
 				<key>compatible</key>
-				<string>pci14e4,43a0</string>
+				<string>pci14e4,4353</string>
 				<key>device_type</key>
 				<string>Airport Extreme</string>
 				<key>model</key>
@@ -346,7 +346,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>Detect</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
