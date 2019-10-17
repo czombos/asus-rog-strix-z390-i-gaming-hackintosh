@@ -1,5 +1,5 @@
-# Hackintosh Mojave Installation Guide for ASUS ROG STRIX Z390-I GAMING
-Build a Perfect Vanilla Hackintosh. I used [this guide](https://www.tonymacx86.com/threads/the-everything-works-asus-z390-i-gaming-i7-8700k-sapphire-rx580-pulse-build.272572/) as a starting point.
+# Hackintosh Catalina Installation Guide for ASUS ROG STRIX Z390-I GAMING
+Build a Perfect Vanilla Hackintosh.
 
 ## Hardware
 
@@ -9,21 +9,13 @@ Build a Perfect Vanilla Hackintosh. I used [this guide](https://www.tonymacx86.c
 - 1 x SAPPHIRE PULSE Radeon RX 570 ITX 4GB
 - 1 x Samsung SSD 850 EVO 250GB
 - 1 x Broadcom BCM94350ZAE/DW1820A M.2 WiFi/ac and BT4LE (replaced on the motherboard)
+  - BCM4350 cards proved unreliable in terms of usage. Only some models work properly
+  - BCM94352Z/DW1560 is better
 
 ![About My Mac](images/about.png)
 
 ## Everything Works
 
-- Continuity:
-  - Handoff
-  - iMessage
-  - Continuity Camera
-  - Universal Clipboard
-  - Instant Hotspot
-  - Air Drop
-  - iPhone Cellular Calls
-  - Auto Unlock
-  - Apple Pay
 - Sleep (fans and RGB LEDs included)
 - Power Nap (sleep with background operations such as Time Machine)
 - Wake
