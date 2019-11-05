@@ -12,7 +12,7 @@ Build a Perfect Vanilla Hackintosh.
   - BCM4350 cards proved unreliable in terms of usage. Only some models work properly
   - BCM94352Z/DW1560 is better
 
-![About My Mac](images/about.png)
+![About My Mac](images/about.png?20191105)
 ![About My Mac Display](images/about-display.png)
 ![System Info Display](images/systeminfo.png)
 
