@@ -103,7 +103,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 debug=0x100 brcmfx-driver=1 brcmfx-country=HU -v</string>
+		<string>dart=0 debug=0x100 brcmfx-driver=1 brcmfx-country=HU -v -raddvi -cdfon enable-hdmi20</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
@@ -175,7 +175,7 @@
 			<key>FixOwnership</key>
 			<false/>
 			<key>HighCurrent</key>
-			<true/>
+			<false/>
 			<key>Inject</key>
 			<false/>
 		</dict>
@@ -270,7 +270,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>C02912270QXLNV9FB</string>
+		<string>{{PASTE GENERATED BOARD SERIAL NUMBER}}</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -287,7 +287,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02912270QXLNV9FB</string>
+		<string>{{GENERATE NEW}}</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -317,9 +317,9 @@
 		<key>ProductName</key>
 		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02YGMZJJV3Q</string>
+		<string>{{GENERATE NEW}}</string>
 		<key>SmUUID</key>
-		<string>3EE2A74B-563B-43EF-A7FF-94263F569872</string>
+		<string>{{GENERATE NEW}}</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

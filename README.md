@@ -13,6 +13,8 @@ Build a Perfect Vanilla Hackintosh.
   - BCM94352Z/DW1560 is better
 
 ![About My Mac](images/about.png)
+![About My Mac Display](images/about-display.png)
+![System Info Display](images/systeminfo.png)
 
 ## Everything Works
 
