@@ -1,9 +1,11 @@
 # Hackintosh Catalina Installation Guide for ASUS ROG STRIX Z390-I GAMING Motherboard
-Build a Perfect Vanilla Hackintosh and boot with OpenCore bootloader like real mac.
+
+Perfect Vanilla Hackintosh with OpenCore bootloader like real mac.
 
 OpenCore supports boot hotkeys, hold Option or ESC at startup to choose a boot device, Command+R to enter Recovery or Command+Option+P+R to reset NVRAM.
 
-I used this guides as a starting point:
+I used this guides as starting point:
+
 https://github.com/khronokernel/Opencore-Vanilla-Desktop-Guide
 https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
@@ -33,10 +35,12 @@ iMacPro1,1 SMBIOS + AMD GPU - DRM Workaround works best on Coffee Lake - Disable
 
 ![About My Mac](images/about.png)
 ![About My Mac Display](images/about-display.png)
-![System Info GPU](images/systeminfo-gpu.png)
 ![System Preferences Display](images/syspref-display.png)
+![System Info GPU](images/systeminfo-gpu.png)
 ![System Info Bluetooth](images/systeminfo-bluetooth.png)
-![System Info Airport](images/systeminfo-wifi.png)
+![System Info Ethernet](images/systeminfo-ethernet.png)
+![System Info PCI](images/systeminfo-pci.png)
+![System Info Wi-Fi](images/systeminfo-wifi.png)
 ![System Info USB](images/systeminfo-usb.png)
 
 ## Everything Works
