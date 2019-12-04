@@ -1,3 +1,5 @@
+! **This is the last Clover update. I will use OpenCore bootloaer in the future.**
+
 # Hackintosh Catalina Installation Guide for ASUS ROG STRIX Z390-I GAMING
 Build a Perfect Vanilla Hackintosh.
 
