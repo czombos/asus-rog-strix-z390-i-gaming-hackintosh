@@ -25,7 +25,7 @@ iMacPro1,1 SMBIOS + AMD GPU - DRM Workaround works best on Coffee Lake - Disable
 
 
 - Gigabyte ASUS ROG STRIX Z390-I GAMING
-- Intel Core i3-8100
+- Intel Core i5-8500T
 - 2 x Kingston HyperX Predator 8GB DDR4 3000MHz
 - 1 x SAPPHIRE PULSE Radeon RX 570 ITX 4GB
 - 1 x Samsung SSD 850 EVO 250GB
