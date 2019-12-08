@@ -23,7 +23,7 @@
 			EmRcCgAAAACwFMj/KHgvXA==
 			</data>
 			<key>boot-args</key>
-			<string>keepsyms=1</string>
+			<string>keepsyms=1 shikigva=16</string>
 			<key>csr-active-config</key>
 			<data>
 			AAAAAA==
@@ -31,6 +31,10 @@
 			<key>fmm-computer-name</key>
 			<data>
 			aG9tZS5jemRlc2lnbi5odQ==
+			</data>
+			<key>prev-lang:kbd</key>
+			<data>
+			aHU6MzA3NjM=
 			</data>
 		</dict>
 	</dict>
