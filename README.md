@@ -68,6 +68,19 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
 </details>
 
+## Benchmark
+
+<details>
+
+![NVMe Speed Test](images/nvme-speed-test.png)
+![Geekbench 5 CPU](images/geekbench-cpu.png)
+![Geekbench 5 Metal](images/geekbench-metal.png)
+![Geekbench 5 OpenCL](images/geekbench-opencl.png)
+![Intel Power Gadget](images/intel-power-gadget.png)
+![LuxMark](images/luxmark.png)
+
+</details>
+
 ## USBMap
 
 Selected XHC ports (max 15)
@@ -378,8 +391,8 @@ Aggressive LPM Support [Disabled]
 SMART Self Test [Enabled]
 SATA6G_1(Black) [Enabled]
 SATA6G_1 Hot Plug [Disabled]
-M.2_1(Gray) [Enabled]
-M.2_1 Hot Plug [Disabled]
+SATA6G_2(Black) [Enabled]
+SATA6G_2 Hot Plug [Disabled]
 SATA6G_3(Black) [Enabled]
 SATA6G_3 Hot Plug [Disabled]
 SATA6G_4(Black) [Enabled]
@@ -441,7 +454,7 @@ CPU Fan Step Down [0 sec]
 CPU Fan Speed Lower Limit [200 RPM]
 CPU Fan Profile [Silent]
 Chassis Fan Q-Fan Control [Auto]
-Chassis Fan Q-Fan Source [CPU]
+Chassis Fan Q-Fan Source [MotherBoard]
 Chassis Fan Step Up [0 sec]
 Chassis Fan Step Down [0 sec]
 Chassis Fan Speed Low Limit [200 RPM]
@@ -450,7 +463,7 @@ AIO PUMP Control [Disabled]
 CPU Temperature LED Switch [Disabled]
 Fast Boot [Disabled]
 Boot Logo Display [Auto]
-POST Delay Time [3 sec]
+POST Delay Time [0 sec]
 Bootup NumLock State [On]
 Wait For 'F1' If Error [Enabled]
 Option ROM Messages [Force BIOS]
