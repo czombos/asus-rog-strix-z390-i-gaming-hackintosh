@@ -16,7 +16,7 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 - Intel Core i5-8500T
 - 2 x Kingston HyperX Predator 8GB DDR4 3000MHz
 - 1 x SAPPHIRE PULSE Radeon RX 570 ITX 4GB
-- 1 x Samsung SSD 850 EVO 250GB
+- 1 x Samsung 970 EVO Plus NVMe M.2 SSD 250 GB
 - 1 x Broadcom BCM94350ZAE/DW1820A M.2 WiFi/ac and BT4LE (replaced on the motherboard)
   - BCM4350 cards proved unreliable in terms of usage. Only some models work properly
   - BCM94352Z/DW1560 is better
