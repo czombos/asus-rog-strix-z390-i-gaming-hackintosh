@@ -15,7 +15,7 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 - Gigabyte ASUS ROG STRIX Z390-I GAMING
 - Intel Core i5-8500T
 - 2 x Kingston HyperX Predator 8GB DDR4 3000MHz
-- 1 x SAPPHIRE PULSE Radeon RX 570 ITX 4GB
+- 1 x GIGABYTE Radeon RX 580 GAMING 8GB
 - 1 x Samsung 970 EVO Plus NVMe M.2 SSD 250 GB
 - 1 x Broadcom BCM94350ZAE/DW1820A M.2 WiFi/ac and BT4LE (replaced on the motherboard)
   - BCM4350 cards proved unreliable in terms of usage. Only some models work properly
@@ -30,6 +30,16 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 - Bluetooth (lag when Wi-Fi is on)
 - Wi-Fi
 - 15 USB port
+- AMD DRM for Music, Safari, TV, Plex, Prime, IQSV
+
+<details>
+<summary>4K HDR in Plex and INAA app</summary>
+
+![Plex 4K HDR](images/plex.png)
+
+![IINA 4K HDR](images/iina.png)
+
+</details>
 
 ## My Workstation
 
@@ -39,11 +49,9 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
 ![](images/hardware/IMG_20191204_135408.jpg)
 
-![](images/hardware/IMG_20191204_135454.jpg)
+![](images/hardware/IMG_20191216_233725.jpg)
 
-![](images/hardware/IMG_20191204_135634.jpg)
-
-![](images/hardware/IMG_20191204_135652.jpg)
+![](images/hardware/IMG_20191216_233819.jpg)
 
 </details>
 
@@ -52,18 +60,37 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 <details>
 
 ![About My Mac](images/about.png)
+
 ![About My Mac Display](images/about-display.png)
+
+![About My Mac Memory](images/about-memory.png)
+
+![Intel Power Gadget](images/intel-power-gadget.png)
+
 ![System Preferences Display](images/syspref-display.png)
+
+![System Preferences Display alt](images/syspref-display-alt.png)
+
 ![System Info Hardware](images/systeminfo-hw.png)
+
 ![System Info Audio](images/systeminfo-audio.png)
+
 ![System Info Bluetooth](images/systeminfo-bluetooth.png)
+
 ![System Info Ethernet](images/systeminfo-ethernet.png)
+
 ![System Info GPU](images/systeminfo-gpu.png)
+
 ![System Info Memory](images/systeminfo-ram.png)
+
+![System Info NVMExpress](images/systeminfo-nvme.png)
+
 ![System Info PCI](images/systeminfo-pci.png)
-![System Info Power](images/systeminfo-power.png)
+
 ![System Info SATA](images/systeminfo-sata.png)
+
 ![System Info USB](images/systeminfo-usb.png)
+
 ![System Info Wi-Fi](images/systeminfo-wifi.png)
 
 </details>
@@ -73,11 +100,16 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 <details>
 
 ![NVMe Speed Test](images/nvme-speed-test.png)
+
 ![Geekbench 5 CPU](images/geekbench-cpu.png)
+
 ![Geekbench 5 Metal](images/geekbench-metal.png)
+
 ![Geekbench 5 OpenCL](images/geekbench-opencl.png)
-![Intel Power Gadget](images/intel-power-gadget.png)
+
 ![LuxMark](images/luxmark.png)
+
+![Ethernet Speed Test](images/speedtest.png)
 
 </details>
 
@@ -108,29 +140,29 @@ Selected XHC ports (max 15)
 <details>
 
 ```
-Ai Overclock Tuner [XMP I]
-XMP [XMP DDR4-3000 15-17-17-36-1.35V]
-BCLK Frequency [102.3000]
+Ai Overclock Tuner [XMP II]
+XMP [XMP DDR4-2667 15-17-17-36-1.35V]
+BCLK Frequency [100.0000]
 ASUS MultiCore Enhancement [Disabled – Enforce All limits]
 SVID Behavior [Auto]
 CPU Core Ratio [Auto]
 DRAM Odd Ratio Mode [Enabled]
-DRAM Frequency [DDR4-3000MHz]
+DRAM Frequency [DDR4-2666MHz]
 Power-saving & Performance Mode [Auto]
 CPU SVID Support [Auto]
 DRAM CAS# Latency [15]
 DRAM RAS# to CAS# Delay [17]
 DRAM RAS# ACT Time [36]
 DRAM Command Rate [Auto]
-DRAM RAS# to RAS# Delay L [Auto]
-DRAM RAS# to RAS# Delay S [Auto]
-DRAM REF Cycle Time [Auto]
-DRAM REF Cycle Time 2 [Auto]
-DRAM REF Cycle Time 4 [Auto]
+DRAM RAS# to RAS# Delay L [7]
+DRAM RAS# to RAS# Delay S [7]
+DRAM REF Cycle Time [467]
+DRAM REF Cycle Time 2 [347]
+DRAM REF Cycle Time 4 [214]
 DRAM Refresh Interval [Auto]
 DRAM WRITE Recovery Time [Auto]
 DRAM READ to PRE Time [Auto]
-DRAM FOUR ACT WIN Time [Auto]
+DRAM FOUR ACT WIN Time [30]
 DRAM WRITE to READ Delay [Auto]
 DRAM WRITE to READ Delay L [Auto]
 DRAM WRITE to READ Delay S [Auto]
@@ -448,22 +480,17 @@ CPU System Agent Voltage [Monitor]
 CPU VCCIO Voltage [Monitor]
 DRAM Voltage [Monitor]
 CPU Standby Voltage [Monitor]
-CPU Q-Fan Control [Auto]
+CPU Q-Fan Control [PWM Mode]
 CPU Fan Step Up [0 sec]
 CPU Fan Step Down [0 sec]
-CPU Fan Speed Lower Limit [200 RPM]
+CPU Fan Speed Lower Limit [Ignore]
 CPU Fan Profile [Silent]
-Chassis Fan Q-Fan Control [Auto]
-Chassis Fan Q-Fan Source [MotherBoard]
-Chassis Fan Step Up [0 sec]
-Chassis Fan Step Down [0 sec]
-Chassis Fan Speed Low Limit [200 RPM]
-Chassis Fan Profile [Silent]
+Chassis Fan Q-Fan Control [Disabled]
 AIO PUMP Control [Disabled]
 CPU Temperature LED Switch [Disabled]
 Fast Boot [Disabled]
 Boot Logo Display [Auto]
-POST Delay Time [0 sec]
+POST Delay Time [1 sec]
 Bootup NumLock State [On]
 Wait For 'F1' If Error [Enabled]
 Option ROM Messages [Force BIOS]
@@ -478,7 +505,6 @@ Save to Profile [1]
 DIMM Slot Number [DIMM_A1]
 Bus Interface [PCIEX16]
 Download & Install ARMOURY CRATE app [Disabled]
-
 ```
 
 </details>
@@ -488,62 +514,62 @@ Download & Install ARMOURY CRATE app [Disabled]
 <details>
 <summary>Screenshots</summary>
 
-![](images/bios/JPEG/191207194423.jpg)
+![](images/bios/JPEG/191214130141.jpg)
 
-![](images/bios/JPEG/191208015331.jpg)
+![](images/bios/JPEG/191214125642.jpg)
 
-![](images/bios/JPEG/191208015350.jpg)
+![](images/bios/JPEG/191214125654.jpg)
 
-![](images/bios/JPEG/191208015359.jpg)
+![](images/bios/JPEG/191214125702.jpg)
 
-![](images/bios/JPEG/191208015403.jpg)
+![](images/bios/JPEG/191214125704.jpg)
 
-![](images/bios/JPEG/191208015405.jpg)
+![](images/bios/JPEG/191214125709.jpg)
 
-![](images/bios/JPEG/191208015429.jpg)
+![](images/bios/JPEG/191214125714.jpg)
 
-![](images/bios/JPEG/191208015432.jpg)
+![](images/bios/JPEG/191214125734.jpg)
 
-![](images/bios/JPEG/191208015435.jpg)
+![](images/bios/JPEG/191214125737.jpg)
 
-![](images/bios/JPEG/191208015437.jpg)
+![](images/bios/JPEG/191214125743.jpg)
 
-![](images/bios/JPEG/191208015442.jpg)
+![](images/bios/JPEG/191214125749.jpg)
 
-![](images/bios/JPEG/191208015457.jpg)
+![](images/bios/JPEG/191214125755.jpg)
 
-![](images/bios/JPEG/191208015504.jpg)
+![](images/bios/JPEG/191214125757.jpg)
 
-![](images/bios/JPEG/191208015507.jpg)
+![](images/bios/JPEG/191214125803.jpg)
 
-![](images/bios/JPEG/191208015511.jpg)
+![](images/bios/JPEG/191214125811.jpg)
 
-![](images/bios/JPEG/191208015524.jpg)
+![](images/bios/JPEG/191214125816.jpg)
 
-![](images/bios/JPEG/191208015526.jpg)
+![](images/bios/JPEG/191214125821.jpg)
 
-![](images/bios/JPEG/191208015533.jpg)
+![](images/bios/JPEG/191214125829.jpg)
 
-![](images/bios/JPEG/191208015537.jpg)
+![](images/bios/JPEG/191214125833.jpg)
 
-![](images/bios/JPEG/191208015540.jpg)
+![](images/bios/JPEG/191214125838.jpg)
 
-![](images/bios/JPEG/191208015542.jpg)
+![](images/bios/JPEG/191214125841.jpg)
 
-![](images/bios/JPEG/191208015933.jpg)
+![](images/bios/JPEG/191214125846.jpg)
 
-![](images/bios/JPEG/191208015937.jpg)
+![](images/bios/JPEG/191214125854.jpg)
 
-![](images/bios/JPEG/191208015942.jpg)
+![](images/bios/JPEG/191214125902.jpg)
 
-![](images/bios/JPEG/191208015957.jpg)
+![](images/bios/JPEG/191214125935.jpg)
 
-![](images/bios/JPEG/191208020018.jpg)
+![](images/bios/JPEG/191214125949.jpg)
 
-![](images/bios/JPEG/191208020026.jpg)
+![](images/bios/JPEG/191214125954.jpg)
 
-![](images/bios/JPEG/191208020030.jpg)
+![](images/bios/JPEG/191214125958.jpg)
 
-![](images/bios/JPEG/191208020033.jpg)
+![](images/bios/JPEG/191214130001.jpg)
 
 </details>
