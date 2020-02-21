@@ -191,7 +191,7 @@
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
-			<false/>
+			<true/>
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
@@ -205,6 +205,8 @@
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectCsmRegion</key>
+			<false/>
+			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
@@ -276,7 +278,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Patch engine</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -292,7 +294,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>SMC emulator</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -308,7 +310,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>Video card</string>
+				<string>Video patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -324,7 +326,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>Sound</string>
+				<string>Audio patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -340,7 +342,7 @@
 				<key>BundlePath</key>
 				<string>IntelMausi.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Intel Ethernet LAN</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -648,6 +650,8 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
+			<key>DummyPowerManagement</key>
+			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -670,26 +674,24 @@
 		<array/>
 		<key>Boot</key>
 		<dict>
-			<key>ConsoleBehaviourOs</key>
-			<string>Graphics</string>
-			<key>ConsoleBehaviourUi</key>
-			<string>Text</string>
-			<key>ConsoleMode</key>
-			<string>Max</string>
 			<key>HibernateMode</key>
 			<string>None</string>
+			<key>PickerMode</key>
+			<string>Builtin</string>
+			<key>HideAuxiliary</key>
+			<false/>
 			<key>HideSelf</key>
 			<true/>
+			<key>PickerAttributes</key>
+			<integer>0</integer>
 			<key>PollAppleHotKeys</key>
 			<true/>
-			<key>Resolution</key>
-			<string></string>
 			<key>ShowPicker</key>
 			<false/>
+			<key>TakeoffDelay</key>
+			<integer>0</integer>
 			<key>Timeout</key>
 			<integer>0</integer>
-			<key>UsePicker</key>
-			<true/>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -707,6 +709,8 @@
 			<dict>
 				<key>Arguments</key>
 				<string></string>
+				<key>Auxiliary</key>
+				<false/>
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
@@ -722,17 +726,15 @@
 			<key>AllowNvramReset</key>
 			<true/>
 			<key>AllowSetDefault</key>
-            <true/>
-            <key>AuthRestart</key>
-            <false/>
+			<true/>
+			<key>AuthRestart</key>
+			<true/>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
-			<key>RequireSignature</key>
-			<false/>
-			<key>RequireVault</key>
-			<false/>
+			<key>Vault</key>
+			<string>Optional</string>
 			<key>ScanPolicy</key>
 			<integer>983299</integer>
 		</dict>
@@ -741,6 +743,8 @@
 			<dict>
 				<key>Arguments</key>
 				<string></string>
+				<key>Auxiliary</key>
+				<false/>
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
@@ -753,6 +757,8 @@
 			<dict>
 				<key>Arguments</key>
 				<string></string>
+				<key>Auxiliary</key>
+				<false/>
 				<key>Comment</key>
 				<string>Memory testing utility</string>
 				<key>Enabled</key>
@@ -772,6 +778,8 @@
 			<dict>
 				<key>UIScale</key>
 				<data>Ag==</data>
+				<key>DefaultBackgroundColor</key>
+				<data>AAAAAA==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
@@ -790,6 +798,7 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<array>
 				<string>UIScale</string>
+				<string>DefaultBackgroundColor</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
@@ -834,14 +843,14 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<false/>
 			<key>MLB</key>
 			<string>C00000000000000UE</string>
 			<key>ROM</key>
 			<data>ESIzAAAA</data>
 			<key>SpoofVendor</key>
 			<true/>
-			<key>SupportsCsm</key>
-			<false/>
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
@@ -864,11 +873,11 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HfsPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
-			<string>FwRuntimeServices.efi</string>
 			<string>AppleUsbKbDxe.efi</string>
+			<string>FwRuntimeServices.efi</string>
 			<string>NvmExpressDxe.efi</string>
+			<string>VBoxHfs.efi</string>
 			<string>XhciDxe.efi</string>
 		</array>
 		<key>Input</key>
@@ -886,9 +895,32 @@
 			<key>PointerSupport</key>
 			<false/>
 			<key>PointerSupportMode</key>
-			<string></string>
+			<string>ASUS</string>
 			<key>TimerResolution</key>
-			<integer>60000</integer>
+			<integer>50000</integer>
+		</dict>
+		<key>Output</key>
+		<dict>
+			<key>TextRenderer</key>
+			<string>BuiltinGraphics</string>
+			<key>ConsoleMode</key>
+			<string></string>
+			<key>Resolution</key>
+			<string>Max</string>
+			<key>ClearScreenOnModeSwitch</key>
+			<false/>
+			<key>IgnoreTextInGraphics</key>
+			<true/>
+			<key>ProvideConsoleGop</key>
+			<true/>
+			<key>DirectGopRendering</key>
+			<false/>
+			<key>ReconnectOnResChange</key>
+			<false/>
+			<key>ReplaceTabWithSpace</key>
+			<false/>
+			<key>SanitiseClearScreen</key>
+			<true/>
 		</dict>
 		<key>Protocols</key>
 		<dict>
@@ -901,17 +933,15 @@
 			<key>AppleKeyMap</key>
 			<false/>
 			<key>AppleSmcIo</key>
-			<false/>
+			<true/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
-			<key>ConsoleControl</key>
-			<true/>
 			<key>DataHub</key>
 			<false/>
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<false/>
+			<true/>
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
@@ -921,29 +951,15 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>AvoidHighAlloc</key>
-			<false/>
-			<key>ClearScreenOnModeSwitch</key>
-			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
-			<key>IgnoreTextInGraphics</key>
-			<true/>
-			<key>ProvideConsoleGop</key>
-			<true/>
-			<key>ReconnectOnResChange</key>
-			<false/>
 			<key>ReleaseUsbOwnership</key>
-			<false/>
-			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>RequestBootVarFallback</key>
 			<true/>
 			<key>RequestBootVarRouting</key>
-			<true/>
-			<key>SanitiseClearScreen</key>
 			<true/>
 			<key>UnblockFsConnect</key>
 			<false/>
