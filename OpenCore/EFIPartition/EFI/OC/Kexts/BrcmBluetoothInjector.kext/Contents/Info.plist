@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19C58</string>
+	<string>19D76</string>
 	<key>CFBundleIdentifier</key>
 	<string>as.acidanthera.injector.BrcmBluetoothInjector</string>
 	<key>CFBundleInfoDictionaryVersion</key>

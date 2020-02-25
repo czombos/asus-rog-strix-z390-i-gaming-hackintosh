@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19C58</string>
+	<string>19D76</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -31,7 +31,7 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11C29</string>
+	<string>11C504</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -41,7 +41,7 @@
 	<key>DTXcode</key>
 	<string>1130</string>
 	<key>DTXcodeBuild</key>
-	<string>11C29</string>
+	<string>11C504</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ConfigurationData</key>
@@ -2614,35 +2614,6 @@
 			<key>model</key>
 			<string>MacBookAir8,1</string>
 		</dict>
-		<key>MacBookAir8,2-ABPC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.rehabman.driver.USBInjectAll</string>
-			<key>IOClass</key>
-			<string>USBInjectAll</string>
-			<key>IOProviderClass</key>
-			<string>AppleBusPowerController</string>
-			<key>kName</key>
-			<string>AppleBusPowerController</string>
-			<key>model</key>
-			<string>MacBookAir8,2</string>
-		</dict>
-		<key>MacBookAir8,2-XHC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.rehabman.driver.USBInjectAll</string>
-			<key>IOClass</key>
-			<string>USBInjectAll</string>
-			<key>IONameMatch</key>
-			<array>
-				<string>XHC</string>
-				<string>XHCI</string>
-			</array>
-			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
-			<key>model</key>
-			<string>MacBookAir8,2</string>
-		</dict>
 		<key>MacBookPro10,1-ABPC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -3585,64 +3556,6 @@
 			<string>AppleUSBXHCIPCI</string>
 			<key>model</key>
 			<string>MacBookPro15,2</string>
-		</dict>
-		<key>MacBookPro15,3-ABPC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.rehabman.driver.USBInjectAll</string>
-			<key>IOClass</key>
-			<string>USBInjectAll</string>
-			<key>IOProviderClass</key>
-			<string>AppleBusPowerController</string>
-			<key>kName</key>
-			<string>AppleBusPowerController</string>
-			<key>model</key>
-			<string>MacBookPro15,3</string>
-		</dict>
-		<key>MacBookPro15,3-XHC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.rehabman.driver.USBInjectAll</string>
-			<key>IOClass</key>
-			<string>USBInjectAll</string>
-			<key>IONameMatch</key>
-			<array>
-				<string>XHC</string>
-				<string>XHCI</string>
-			</array>
-			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
-			<key>model</key>
-			<string>MacBookPro15,3</string>
-		</dict>
-		<key>MacBookPro15,4-ABPC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.rehabman.driver.USBInjectAll</string>
-			<key>IOClass</key>
-			<string>USBInjectAll</string>
-			<key>IOProviderClass</key>
-			<string>AppleBusPowerController</string>
-			<key>kName</key>
-			<string>AppleBusPowerController</string>
-			<key>model</key>
-			<string>MacBookPro15,4</string>
-		</dict>
-		<key>MacBookPro15,4-XHC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.rehabman.driver.USBInjectAll</string>
-			<key>IOClass</key>
-			<string>USBInjectAll</string>
-			<key>IONameMatch</key>
-			<array>
-				<string>XHC</string>
-				<string>XHCI</string>
-			</array>
-			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
-			<key>model</key>
-			<string>MacBookPro15,4</string>
 		</dict>
 		<key>MacBookPro6,1-ABPC</key>
 		<dict>
@@ -6345,35 +6258,6 @@
 			<string>AppleUSBXHCIPCI</string>
 			<key>model</key>
 			<string>iMac19,1</string>
-		</dict>
-		<key>iMac19,2-ABPC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.rehabman.driver.USBInjectAll</string>
-			<key>IOClass</key>
-			<string>USBInjectAll</string>
-			<key>IOProviderClass</key>
-			<string>AppleBusPowerController</string>
-			<key>kName</key>
-			<string>AppleBusPowerController</string>
-			<key>model</key>
-			<string>iMac19,2</string>
-		</dict>
-		<key>iMac19,2-XHC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.rehabman.driver.USBInjectAll</string>
-			<key>IOClass</key>
-			<string>USBInjectAll</string>
-			<key>IONameMatch</key>
-			<array>
-				<string>XHC</string>
-				<string>XHCI</string>
-			</array>
-			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
-			<key>model</key>
-			<string>iMac19,2</string>
 		</dict>
 		<key>iMac4,1-ABPC</key>
 		<dict>
