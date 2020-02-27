@@ -119,19 +119,19 @@ Selected XHC ports (max 15)
 
 | Ports | Type | Description |
 | --- | --- | --- |
-| HS02 | USB 2 Type C connector | Rear USB Type-C |
-| HS03 | USB 3 Standard-A connector | Rear USB 3.1 Gen 2 (red) |
-| HS04 | USB 3 Standard-A connector | Rear USB 3.1 Gen 2 (red) |
+| HS02 | USB 3 Type C connector | Rear USB Type-C |
 | HS05 | USB 2 Type A connector | Rear USB 2.0 (black) |
 | HS06 | USB 2 Type A connector | Rear USB 2.0 (black) |
 | HS07 | USB 3 Standard-A connector | Rear USB 3.1 Gen 1 (blue) |
 | HS08 | USB 3 Standard-A connector | Rear USB 3.1 Gen 1 (blue) |
 | HS09 | USB 3 Standard-A connector | Front USB 3.1 Gen 1 |
 | HS10 | USB 3 Standard-A connector | Front USB 3.1 Gen 1 |
-| HS13 | Internal connector | RGB LED Lighting - AURA MOTHERBOARD |
 | HS14 | Internal connector | Bluetooth/Wifi - BCM2045A0 |
 | SS03 | USB 3 Standard-A connector | Rear USB 3.1 Gen 2 (red) |
 | SS04 | USB 3 Standard-A connector | Rear USB 3.1 Gen 2 (red) |
+| SS06 | USB 3 Type C connector | Rear USB Type-C |
+| SS07 | USB 3 Standard-A connector | Rear USB 3.1 Gen 1 (blue) |
+| SS08 | USB 3 Standard-A connector | Rear USB 3.1 Gen 1 (blue) |
 | SS09 | USB 3 Standard-A connector | Front USB 3.1 Gen 1 |
 | SS10 | USB 3 Standard-A connector | Front USB 3.1 Gen 1 |
 
