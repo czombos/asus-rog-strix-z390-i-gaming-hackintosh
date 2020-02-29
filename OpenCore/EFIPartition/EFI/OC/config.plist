@@ -222,14 +222,12 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x7)/Pci(0x0,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1C,0x7)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Slot-8</string>
-				<key>brcmfx-country</key>
-				<string>#a</string>
+				<string>WLAN</string>
 				<key>compatible</key>
-				<string>pci14e4,43a3</string>
+				<string>pci14e4,4331</string>
 				<key>device_type</key>
 				<string>Airport Extreme</string>
 				<key>model</key>
@@ -239,12 +237,14 @@
 				<key>pci-aspm-default</key>
 				<integer>0</integer>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Built In</string>
+				<string>Internal@0,31,3</string>
 				<key>device_type</key>
 				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>BwAAAA==</data>
 				<key>model</key>
@@ -255,11 +255,13 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>AwCSPg==</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>kj4AAA==</data>
 				<key>device_type</key>
 				<string>Display controller</string>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
 				<key>model</key>
 				<string>Intel UHD Graphics 630 (connector-less)</string>
 			</dict>
@@ -706,7 +708,7 @@
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -791,8 +793,6 @@
 				<string>keepsyms=1 shikigva=16</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
-				<key>nvda_drv</key>
-				<data></data>
 				<key>prev-lang:kbd</key>
 				<data>aHUtSFU6MzA3NjM=</data>
 			</dict>
@@ -826,7 +826,6 @@
 				<string>bluetoothInternalControllerInfo</string>
 				<string>flagstate</string>
 				<string>fmm-computer-name</string>
-				<string>nvda_drv</string>
 				<string>prev-lang:kbd</string>
 			</array>
 			<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
@@ -921,7 +920,7 @@
 		<key>Output</key>
 		<dict>
 			<key>TextRenderer</key>
-			<string>BuiltinGraphics</string>
+			<string>SystemGraphics</string>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>Resolution</key>
