@@ -15,11 +15,17 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 - Gigabyte ASUS ROG STRIX Z390-I GAMING
 - Intel Core i5-8500T
 - 2 x Kingston HyperX Predator 8GB DDR4 3000MHz
-- 1 x GIGABYTE Radeon RX 580 GAMING 8GB
+- 1 x SAPPHIRE Radeon Nitro+ RX 580 8GB
 - 1 x Samsung 970 EVO Plus NVMe M.2 SSD 250 GB
-- 1 x Broadcom BCM94350ZAE/DW1820A M.2 WiFi/ac and BT4LE (replaced on the motherboard)
-  - BCM4350 cards proved unreliable in terms of usage. Only some models work properly
-  - BCM94352Z/DW1560 is better
+- 1 x Broadcom BCM94360NG M.2 WiFi/ac and BT4LE (replaced on the motherboard)
+  - macOS Plug and Play Native Support NO other kext or any patching needed
+
+<details>
+<summary>BCM94360NG</summary>
+
+![BCM94360NG](images/hardware/BCM94360NG.png)
+
+</details>
 
 ## What works
 
@@ -27,7 +33,7 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 - Power Nap (sleep with background operations such as Time Machine)
 - Audio (select internal speakers)
 - Ethernet
-- Bluetooth (lag when Wi-Fi is on)
+- Bluetooth
 - Wi-Fi
 - 15 USB port
 - AMD DRM for Music, Safari, TV, Plex, Prime, IQSV
@@ -126,7 +132,7 @@ Selected XHC ports (max 15)
 | HS08 | USB 3 Standard-A connector | Rear USB 3.1 Gen 1 (blue) |
 | HS09 | USB 3 Standard-A connector | Front USB 3.1 Gen 1 |
 | HS10 | USB 3 Standard-A connector | Front USB 3.1 Gen 1 |
-| HS14 | Internal connector | Bluetooth/Wifi - BCM2045A0 |
+| HS14 | Internal connector | Bluetooth/Wifi - BRCM20702 Hub |
 | SS03 | USB 3 Standard-A connector | Rear USB 3.1 Gen 2 (red) |
 | SS04 | USB 3 Standard-A connector | Rear USB 3.1 Gen 2 (red) |
 | SS06 | USB 3 Type C connector | Rear USB Type-C |
