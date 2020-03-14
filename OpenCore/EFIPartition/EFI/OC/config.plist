@@ -811,8 +811,8 @@
 			<string>FwRuntimeServices.efi</string>
 			<string>HfsPlus.efi</string>
 			<string>#HiiDatabase.efi</string>
-			<string>NvmExpressDxe.efi</string>
-			<string>XhciDxe.efi</string>
+			<string>#NvmExpressDxe.efi</string>
+			<string>#XhciDxe.efi</string>
 		</array>
 		<key>Audio</key>
 		<dict>
