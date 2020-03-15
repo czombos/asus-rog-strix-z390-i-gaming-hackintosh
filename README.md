@@ -2,7 +2,7 @@
 
 Perfect Vanilla Hackintosh with OpenCore bootloader like real mac.
 
-OpenCore supports boot hotkeys, hold Option or ESC at startup to choose a boot device, Command+R to enter Recovery or Command+Option+P+R to reset NVRAM.
+OpenCore supports boot hotkeys, hold Command+R to enter Recovery ...
 
 I used this guides as starting point:
 
