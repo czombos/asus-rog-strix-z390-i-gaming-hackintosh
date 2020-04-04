@@ -619,7 +619,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>External</string>
+			<string>Builtin</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -838,7 +838,7 @@
 			<string>#NvmExpressDxe.efi</string>
 			<string>#XhciDxe.efi</string>
 			<string>#AudioDxe.efi</string>
-			<string>OpenCanopy.efi</string>
+			<string>#OpenCanopy.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
