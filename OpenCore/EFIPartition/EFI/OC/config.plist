@@ -38,6 +38,14 @@
 				<key>Path</key>
 				<string>SSDT-PMC.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fix AppleSMBus support</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SBUS-MCHC.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -204,7 +212,7 @@
 			<false/>
 			<key>ForceExitBootServices</key>
 			<false/>
-			<key>ProtectCsmRegion</key>
+			<key>ProtectMemoryRegions</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
 			<false/>
@@ -487,34 +495,6 @@
 			</dict>
 			<dict>
 				<key>Base</key>
-				<string>__ZN8AppleRTC14updateChecksumEv</string>
-				<key>Comment</key>
-				<string>Disable RTC checksum update on poweroff</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data></data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleRTC</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>Replace</key>
-				<data>ww==</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>Base</key>
 				<string>_AcpiOsVprintf</string>
 				<key>Comment</key>
 				<string>Disable ACPI logging</string>
@@ -584,6 +564,8 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
+			<key>DisableRtcChecksum</key>
+			<true/>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
@@ -597,7 +579,7 @@
 			<key>PowerTimeoutKernelPanic</key>
 			<true/>
 			<key>ThirdPartyDrives</key>
-			<true/>
+			<false/>
 			<key>XhciPortLimit</key>
 			<false/>
 		</dict>
@@ -614,6 +596,8 @@
 			<false/>
 			<key>HideSelf</key>
 			<true/>
+			<key>ConsoleAttributes</key>
+			<integer>0</integer>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
@@ -808,6 +792,19 @@
 	</dict>
 	<key>UEFI</key>
 	<dict>
+		<key>APFS</key>
+		<dict>
+			<key>EnableJumpstart</key>
+			<true/>
+			<key>HideVerbose</key>
+			<true/>
+			<key>JumpstartHotPlug</key>
+			<false/>
+			<key>MinVersion</key>
+			<integer>0</integer>
+			<key>MinDate</key>
+			<integer>0</integer>
+		</dict>
 		<key>Audio</key>
 		<dict>
 			<key>AudioCodec</key>
@@ -831,7 +828,6 @@
 		<array>
 			<string>#ExFatDxe.efi</string>
 			<string>HfsPlus.efi</string>
-			<string>ApfsDriverLoader.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>#OpenUsbKbDxe.efi</string>
 			<string>#HiiDatabase.efi</string>
@@ -932,6 +928,19 @@
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
+		<key>ReservedMemory</key>
+		<array>
+			<dict>
+				<key>Address</key>
+				<integer>268435456</integer>
+				<key>Size</key>
+				<integer>268435456</integer>
+				<key>Comment</key>
+				<string>HD3000: IGPU memory corruption errata</string>
+				<key>Enabled</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 </dict>
 </plist>
