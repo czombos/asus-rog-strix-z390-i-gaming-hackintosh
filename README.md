@@ -6,7 +6,7 @@ OpenCore supports boot hotkeys, hold Command+R to enter Recovery ...
 
 I used this guides as starting point:
 
-https://github.com/khronokernel/Opencore-Vanilla-Desktop-Guide
+https://github.com/dortania/OpenCore-Desktop-Guide
 
 https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
