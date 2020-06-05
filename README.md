@@ -2,8 +2,6 @@
 
 Perfect Vanilla Hackintosh with OpenCore bootloader like real mac.
 
-OpenCore supports boot hotkeys, hold Command+R to enter Recovery ...
-
 I used this guides as starting point:
 
 https://github.com/dortania/OpenCore-Desktop-Guide
