@@ -10,10 +10,11 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
 ## Hardware
 
+- Fractal Design Era ITX
 - Gigabyte ASUS ROG STRIX Z390-I GAMING
 - Intel Core i5-8500T
 - 2 x Kingston HyperX Predator 8GB DDR4 3000MHz
-- 1 x SAPPHIRE Radeon Nitro+ RX 580 8GB
+- 1 x GIGABYTE Radeon RX 580 GAMING 8GB
 - 1 x Samsung 970 EVO Plus NVMe M.2 SSD 250 GB
 - 1 x Broadcom BCM94360NG M.2 WiFi/ac and BT4LE (replaced on the motherboard)
   - macOS Plug and Play Native Support NO other kext or any patching needed
@@ -49,13 +50,13 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
 <details>
 
-![](images/hardware/IMG_20191204_135309.jpg)
+![](images/hardware/IMG_20200719_134454.jpg)
 
-![](images/hardware/IMG_20191204_135408.jpg)
+![](images/hardware/IMG_20200719_134529.jpg)
 
-![](images/hardware/IMG_20191216_233725.jpg)
+![](images/hardware/IMG_20200719_134612.jpg)
 
-![](images/hardware/IMG_20191216_233819.jpg)
+![](images/hardware/IMG_20200719_134624.jpg)
 
 </details>
 
@@ -123,7 +124,7 @@ Selected XHC ports (max 15)
 
 | Ports | Type | Description |
 | --- | --- | --- |
-| HS02 | USB 3 Type C connector | Rear USB Type-C |
+| HS01 | USB 2 and USB 3 Type C connector with Switch | Front USB Type-C |
 | HS05 | USB 2 Type A connector | Rear USB 2.0 (black) |
 | HS06 | USB 2 Type A connector | Rear USB 2.0 (black) |
 | HS07 | USB 3 Standard-A connector | Rear USB 3.1 Gen 1 (blue) |
@@ -131,9 +132,9 @@ Selected XHC ports (max 15)
 | HS09 | USB 3 Standard-A connector | Front USB 3.1 Gen 1 |
 | HS10 | USB 3 Standard-A connector | Front USB 3.1 Gen 1 |
 | HS14 | Internal connector | Bluetooth/Wifi - BRCM20702 Hub |
+| SS01 | USB 2 and USB 3 Type C connector with Switch | Front USB Type-C |
 | SS03 | USB 3 Standard-A connector | Rear USB 3.1 Gen 2 (red) |
 | SS04 | USB 3 Standard-A connector | Rear USB 3.1 Gen 2 (red) |
-| SS06 | USB 3 Type C connector | Rear USB Type-C |
 | SS07 | USB 3 Standard-A connector | Rear USB 3.1 Gen 1 (blue) |
 | SS08 | USB 3 Standard-A connector | Rear USB 3.1 Gen 1 (blue) |
 | SS09 | USB 3 Standard-A connector | Front USB 3.1 Gen 1 |
