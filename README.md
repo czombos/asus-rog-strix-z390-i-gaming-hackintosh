@@ -4,7 +4,8 @@ Perfect Vanilla Hackintosh with OpenCore bootloader like real mac.
 
 I used this guides as starting point:
 
-https://github.com/dortania/OpenCore-Desktop-Guide
+https://dortania.github.io/OpenCore-Install-Guide  
+https://dortania.github.io/OpenCore-Post-Install
 
 https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
