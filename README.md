@@ -9,6 +9,8 @@ https://dortania.github.io/OpenCore-Post-Install
 
 https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
+Current OpenCore version 0.6.2
+
 ## Hardware
 
 - Fractal Design Era ITX
@@ -275,6 +277,7 @@ TRDPRE [Auto]
 tREFIX9 [Auto]
 OREF_RI [Auto]
 MRC Fast Boot [Auto]
+Delay after Train [Disabled]
 DRAM CLK Period [Auto]
 Memory Scrambler [Enabled]
 Channel A DIMM Control [Enable both DIMMs]
@@ -420,21 +423,21 @@ Primary Display [PEG]
 iGPU Multi-Monitor [Enabled]
 DVMT Pre-Allocated [32M]
 RC6(Render Standby) [Auto]
-PCIEX16 Link Speed [Auto]
-PCIe Speed [Auto]
+PCIEX16 Link Speed [Gen3]
+PCIe Speed [Gen3]
 IOAPIC 24-119 Entries [Enabled]
 SATA Controller(s) [Enabled]
 SATA Mode Selection [AHCI]
 Aggressive LPM Support [Disabled]
 SMART Self Test [Enabled]
 SATA6G_1(Black) [Enabled]
-SATA6G_1 Hot Plug [Disabled]
+SATA6G_1 Hot Plug [Enabled]
 SATA6G_2(Black) [Enabled]
-SATA6G_2 Hot Plug [Disabled]
+SATA6G_2 Hot Plug [Enabled]
 SATA6G_3(Black) [Enabled]
-SATA6G_3 Hot Plug [Disabled]
+SATA6G_3 Hot Plug [Enabled]
 SATA6G_4(Black) [Enabled]
-SATA6G_4 Hot Plug [Disabled]
+SATA6G_4 Hot Plug [Enabled]
 M.2_2 [Enabled]
 Intel Platform Trust Technology [Disabled]
 Hyper M.2X16 [Disabled]
@@ -489,11 +492,19 @@ CPU Standby Voltage [Monitor]
 CPU Q-Fan Control [PWM Mode]
 CPU Fan Step Up [0 sec]
 CPU Fan Step Down [0 sec]
-CPU Fan Speed Lower Limit [Ignore]
+CPU Fan Speed Lower Limit [200 RPM]
 CPU Fan Profile [Silent]
-Chassis Fan Q-Fan Control [Disabled]
+Chassis Fan Q-Fan Control [DC Mode]
+Chassis Fan Q-Fan Source [Multiple Sources]
+Temperature Source 1 [CPU]
+Temperature Source 2 [MotherBoard]
+Temperature Source 3 [PCH]
+Chassis Fan Step Up [0 sec]
+Chassis Fan Step Down [0 sec]
+Chassis Fan Speed Low Limit [200 RPM]
+Chassis Fan Profile [Silent]
 AIO PUMP Control [Disabled]
-CPU Temperature LED Switch [Disabled]
+CPU Temperature LED Switch [Enabled]
 Fast Boot [Disabled]
 Boot Logo Display [Auto]
 POST Delay Time [1 sec]
@@ -520,62 +531,68 @@ Download & Install ARMOURY CRATE app [Disabled]
 <details>
 <summary>Screenshots</summary>
 
-![](images/bios/JPEG/191214130141.jpg)
+![](images/bios/JPEG/201011224212.jpeg)
 
-![](images/bios/JPEG/191214125642.jpg)
+![](images/bios/JPEG/201011222950.jpeg)
 
-![](images/bios/JPEG/191214125654.jpg)
+![](images/bios/JPEG/201011223006.jpeg)
 
-![](images/bios/JPEG/191214125702.jpg)
+![](images/bios/JPEG/201011223037.jpeg)
 
-![](images/bios/JPEG/191214125704.jpg)
+![](images/bios/JPEG/201011223046.jpeg)
 
-![](images/bios/JPEG/191214125709.jpg)
+![](images/bios/JPEG/201011223134.jpeg)
 
-![](images/bios/JPEG/191214125714.jpg)
+![](images/bios/JPEG/201011223201.jpeg)
 
-![](images/bios/JPEG/191214125734.jpg)
+![](images/bios/JPEG/201011223257.jpeg)
 
-![](images/bios/JPEG/191214125737.jpg)
+![](images/bios/JPEG/201011223303.jpeg)
 
-![](images/bios/JPEG/191214125743.jpg)
+![](images/bios/JPEG/201011223307.jpeg)
 
-![](images/bios/JPEG/191214125749.jpg)
+![](images/bios/JPEG/201011223323.jpeg)
 
-![](images/bios/JPEG/191214125755.jpg)
+![](images/bios/JPEG/201011223328.jpeg)
 
-![](images/bios/JPEG/191214125757.jpg)
+![](images/bios/JPEG/201011223331.jpeg)
 
-![](images/bios/JPEG/191214125803.jpg)
+![](images/bios/JPEG/201011223342.jpeg)
 
-![](images/bios/JPEG/191214125811.jpg)
+![](images/bios/JPEG/201011223353.jpeg)
 
-![](images/bios/JPEG/191214125816.jpg)
+![](images/bios/JPEG/201011223402.jpeg)
 
-![](images/bios/JPEG/191214125821.jpg)
+![](images/bios/JPEG/201011223426.jpeg)
 
-![](images/bios/JPEG/191214125829.jpg)
+![](images/bios/JPEG/201011223449.jpeg)
 
-![](images/bios/JPEG/191214125833.jpg)
+![](images/bios/JPEG/201011223504.jpeg)
 
-![](images/bios/JPEG/191214125838.jpg)
+![](images/bios/JPEG/201011223513.jpeg)
 
-![](images/bios/JPEG/191214125841.jpg)
+![](images/bios/JPEG/201011223518.jpeg)
 
-![](images/bios/JPEG/191214125846.jpg)
+![](images/bios/JPEG/201011223522.jpeg)
 
-![](images/bios/JPEG/191214125854.jpg)
+![](images/bios/JPEG/201011223526.jpeg)
 
-![](images/bios/JPEG/191214125902.jpg)
+![](images/bios/JPEG/201011223533.jpeg)
 
-![](images/bios/JPEG/191214125935.jpg)
+![](images/bios/JPEG/201011223557.jpeg)
 
-![](images/bios/JPEG/191214125949.jpg)
+![](images/bios/JPEG/201011223641.jpeg)
 
-![](images/bios/JPEG/191214125954.jpg)
+![](images/bios/JPEG/201011223646.jpeg)
 
-![](images/bios/JPEG/191214125958.jpg)
+![](images/bios/JPEG/201011223712.jpeg)
 
-![](images/bios/JPEG/191214130001.jpg)
+![](images/bios/JPEG/201011224030.jpeg)
+
+![](images/bios/JPEG/201011224047.jpeg)
+
+![](images/bios/JPEG/201011224101.jpeg)
+
+![](images/bios/JPEG/201011224157.jpeg)
 
 </details>
