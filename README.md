@@ -11,6 +11,9 @@ https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
 Current OpenCore version 0.6.2
 
+## OpenCore Startup Manager
+![OpenCore GUI](images/opencore-gui.png)
+
 ## Hardware
 
 - Fractal Design Era ITX
