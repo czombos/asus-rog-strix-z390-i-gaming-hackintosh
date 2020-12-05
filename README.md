@@ -9,7 +9,7 @@ https://dortania.github.io/OpenCore-Post-Install
 
 https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
-Current OpenCore version 0.6.2
+Current OpenCore version 0.6.3
 
 ## OpenCore Startup Manager
 ![OpenCore GUI](images/opencore-gui.png)
@@ -20,7 +20,7 @@ Current OpenCore version 0.6.2
 - ASUS ROG STRIX Z390-I GAMING
 - Intel Core i5-8500T
 - 2 x Kingston HyperX Predator 8GB DDR4 3000MHz
-- 1 x GIGABYTE Radeon RX 580 GAMING 8GB
+- 1 x SAPPHIRE PULSE RX 5600 XT BE 6GB
 - 1 x Samsung 970 EVO Plus NVMe M.2 SSD 250 GB
 - 1 x Broadcom BCM94360NG M.2 WiFi/ac and BT4LE (replaced on the motherboard)
   - macOS Plug and Play Native Support NO other kext or any patching needed
