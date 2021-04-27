@@ -43,6 +43,7 @@ Current OpenCore version 0.6.8
 - Wi-Fi
 - 15 USB port
 - AMD DRM for Music, Safari, TV, Plex, Prime, IQSV
+  - DRM Compatibility on macOS 11: https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md#drm-compatibility-on-macos-11
 
 <details>
 <summary>4K HDR in Plex and INAA app</summary>
