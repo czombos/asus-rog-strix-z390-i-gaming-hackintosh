@@ -1,4 +1,4 @@
-# Hackintosh Catalina Installation Guide for ASUS ROG STRIX Z390-I GAMING Motherboard
+# Hackintosh Installation Guide for ASUS ROG STRIX Z390-I GAMING Motherboard
 
 Perfect Vanilla Hackintosh with OpenCore bootloader like real mac.
 
