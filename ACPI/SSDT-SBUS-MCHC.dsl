@@ -4,13 +4,24 @@
 DefinitionBlock ("", "SSDT", 2, "ACDT", "MCHCSBUS", 0x00000000)
 {
     External (_SB_.PCI0, DeviceObj)
-    External (_SB_.PCI0.SBUS.BUS0, DeviceObj)
+    External (_SB_.PCI0.SBUS, DeviceObj)
 
     Scope (_SB.PCI0)
     {
         Device (MCHC)
         {
             Name (_ADR, Zero)  // _ADR: Address
+            Method (_STA, 0, NotSerialized)  // _STA: Status
+            {
+                If (_OSI ("Darwin"))
+                {
+                    Return (0x0F)
+                }
+                Else
+                {
+                    Return (Zero)
+                }
+            }
         }
     }
 
@@ -39,34 +50,16 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "MCHCSBUS", 0x00000000)
                 })
             }
         }
-    }
-
-    Method (DTGP, 5, NotSerialized)
-    {
-        If ((Arg0 == ToUUID ("a0b5b7c6-1318-441c-b0c9-fe695eaf949b")))
+        Method (_STA, 0, NotSerialized)  // _STA: Status
         {
-            If ((Arg1 == One))
+            If (_OSI ("Darwin"))
             {
-                If ((Arg2 == Zero))
-                {
-                    Arg4 = Buffer (One)
-                        {
-                             0x03                                             // .
-                        }
-                    Return (One)
-                }
-
-                If ((Arg2 == One))
-                {
-                    Return (One)
-                }
+                Return (0x0F)
+            }
+            Else
+            {
+                Return (Zero)
             }
         }
-
-        Arg4 = Buffer (One)
-            {
-                 0x00                                             // .
-            }
-        Return (Zero)
     }
 }
