@@ -9,7 +9,7 @@ https://dortania.github.io/OpenCore-Post-Install
 
 https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
-Current macOS version: Big Sur 11.6 (20G165)  
+Current macOS version: Monterey 12.0.1 (21A559)  
 Current OpenCore version 0.7.5
 
 ## OpenCore Startup Manager
