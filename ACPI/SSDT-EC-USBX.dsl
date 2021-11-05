@@ -22,7 +22,7 @@
  */
 DefinitionBlock ("", "SSDT", 2, "ACDT", "SsdtEC", 0x00001000)
 {
-    External (_SB_.PCI0.LPCB, DeviceObj)
+    External (\_SB.PCI0.LPCB, DeviceObj)
 
     /*
      * Uncomment replacing EC0 with your own value in case your
@@ -34,7 +34,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "SsdtEC", 0x00001000)
      * could trigger randomly.
      */
 
-    External (_SB_.PCI0.LPCB.EC0, DeviceObj)
+    External (\_SB.PCI0.LPCB.EC0, DeviceObj)
 
     Scope (\_SB.PCI0.LPCB.EC0)
     {
