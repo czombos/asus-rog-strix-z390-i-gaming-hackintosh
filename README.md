@@ -44,6 +44,12 @@ Current OpenCore version 0.7.5
 - 15 USB port
 - AMD DRM for Music, Safari, TV, Plex, Prime, IQSV
   - DRM Compatibility on macOS 11: https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Chart.md#drm-compatibility-on-macos-11
+  - defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes forces AMD DRM decoder for streaming services (like Apple TV and iTunes movie streaming)
+  - defaults write com.apple.AppleGVA gvaForceAMDAVCDecode -boolean yes forces AMD AVC accelerated decoder
+  - defaults write com.apple.AppleGVA gvaForceAMDAVCEncode -boolean yes forces AMD AVC accelerated encoder
+  - defaults write com.apple.AppleGVA gvaForceAMDHEVCDecode -boolean yes forces AMD HEVC accelerated decoder
+  - defaults write com.apple.AppleGVA disableGVAEncryption -string YES forces AMD HEVC accelerated decoder
+  - defaults write com.apple.coremedia hardwareVideoDecoder -string force forces hardware accelerated video decoder (for any resolution)
 
 <details>
 <summary>4K HDR in Plex and INAA app</summary>
